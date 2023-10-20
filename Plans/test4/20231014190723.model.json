@@ -1,0 +1,99 @@
+{
+    "plan": {
+        "state": [
+            {
+                "Key": "INPUT",
+                "Value": ""
+            }
+        ],
+        "steps": [
+            {
+                "state": [
+                    {
+                        "Key": "INPUT",
+                        "Value": ""
+                    }
+                ],
+                "steps": [],
+                "parameters": [],
+                "outputs": [
+                    "EXCUSE"
+                ],
+                "next_step_index": 0,
+                "name": "Excuses",
+                "skill_name": "FunSkill",
+                "description": "Turn a scenario into a creative or humorous excuse to send your boss",
+                "executed": false
+            },
+            {
+                "state": [
+                    {
+                        "Key": "INPUT",
+                        "Value": ""
+                    }
+                ],
+                "steps": [],
+                "parameters": [
+                    {
+                        "Key": "style",
+                        "Value": "humorous"
+                    },
+                    {
+                        "Key": "INPUT",
+                        "Value": "$EXCUSE"
+                    }
+                ],
+                "outputs": [
+                    "RESULT__JOKE"
+                ],
+                "next_step_index": 0,
+                "name": "Joke",
+                "skill_name": "FunSkill",
+                "description": "Generate a funny joke",
+                "executed": false
+            },
+            {
+                "state": [
+                    {
+                        "Key": "INPUT",
+                        "Value": ""
+                    }
+                ],
+                "steps": [],
+                "parameters": [
+                    {
+                        "Key": "name",
+                        "Value": "Bob"
+                    },
+                    {
+                        "Key": "INPUT",
+                        "Value": "Dogs"
+                    }
+                ],
+                "outputs": [
+                    "RESULT__LIMERICK"
+                ],
+                "next_step_index": 0,
+                "name": "Limerick",
+                "skill_name": "FunSkill",
+                "description": "Generate a funny limerick about a person",
+                "executed": false
+            }
+        ],
+        "parameters": [
+            {
+                "Key": "INPUT",
+                "Value": ""
+            }
+        ],
+        "outputs": [
+            "RESULT__JOKE",
+            "RESULT__LIMERICK"
+        ],
+        "next_step_index": 0,
+        "name": "",
+        "skill_name": "Microsoft.SemanticKernel.Planning.Plan",
+        "description": "make an excuse why I'm late and make a joke about it",
+        "executed": false
+    }
+}

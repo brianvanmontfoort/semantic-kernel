@@ -1,0 +1,22 @@
+{
+    "name": "test3",
+    "input": "",
+    "skills": [
+        {
+            "name": "FunSkill",
+            "folder": "samples\\skills",
+            "isSemantic": true,
+            "functions": [
+                {
+                    "label": "Excuses"
+                },
+                {
+                    "label": "Joke"
+                },
+                {
+                    "label": "Limerick"
+                }
+            ]
+        }
+    ]
+}

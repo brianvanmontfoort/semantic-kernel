@@ -1,0 +1,76 @@
+{
+    "plan": {
+        "state": [
+            {
+                "Key": "INPUT",
+                "Value": ""
+            }
+        ],
+        "steps": [
+            {
+                "state": [
+                    {
+                        "Key": "INPUT",
+                        "Value": ""
+                    }
+                ],
+                "steps": [],
+                "parameters": [
+                    {
+                        "Key": "input",
+                        "Value": "joke why I am late"
+                    }
+                ],
+                "outputs": [
+                    "EXCUSE_OUTPUT"
+                ],
+                "next_step_index": 0,
+                "name": "Excuses",
+                "skill_name": "FunPlugin",
+                "description": "Turn a scenario into a creative or humorous excuse to send your boss",
+                "executed": false
+            },
+            {
+                "state": [
+                    {
+                        "Key": "INPUT",
+                        "Value": ""
+                    }
+                ],
+                "steps": [],
+                "parameters": [
+                    {
+                        "Key": "INPUT",
+                        "Value": "$EXCUSE_OUTPUT"
+                    },
+                    {
+                        "Key": "style",
+                        "Value": "humorous"
+                    }
+                ],
+                "outputs": [
+                    "RESULT__FINAL_ANSWER"
+                ],
+                "next_step_index": 0,
+                "name": "Joke",
+                "skill_name": "FunPlugin",
+                "description": "Generate a funny joke",
+                "executed": false
+            }
+        ],
+        "parameters": [
+            {
+                "Key": "INPUT",
+                "Value": ""
+            }
+        ],
+        "outputs": [
+            "RESULT__FINAL_ANSWER"
+        ],
+        "next_step_index": 0,
+        "name": "",
+        "skill_name": "Microsoft.SemanticKernel.Planning.Plan",
+        "description": "joke why I am late",
+        "executed": false
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "test2",
+    "input": "",
+    "skills": [
+        {
+            "name": "FunPlugin",
+            "folder": "samples\\plugins",
+            "isSemantic": true,
+            "functions": [
+                {
+                    "label": "Excuses"
+                },
+                {
+                    "label": "Joke"
+                },
+                {
+                    "label": "Limerick"
+                }
+            ]
+        }
+    ]
+}

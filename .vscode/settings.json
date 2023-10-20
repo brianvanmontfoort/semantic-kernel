@@ -90,5 +90,13 @@
   },
   "java.debug.settings.onBuildFailureProceed": true,
   "java.compile.nullAnalysis.mode": "disabled",
-  "dotnet.defaultSolution": "dotnet\\SK-dotnet.sln"
+  "dotnet.defaultSolution": "dotnet\\SK-dotnet.sln",
+  "azureFunctions.projectSubpath": "samples\\python\\kernel_http_server",
+  "azureFunctions.deploySubpath": "samples\\python\\kernel_http_server",
+  "azureFunctions.scmDoBuildDuringDeployment": true,
+  "azureFunctions.pythonVenv": ".venv",
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.projectLanguageModel": 2
 }
